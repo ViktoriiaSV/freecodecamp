@@ -140,3 +140,53 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence."
 
 //30
+const myName = "Vikki";
+const myStr = "My name is " + myName + " and I am well!";
+
+//31
+const someAdjective = "JS is not easy. ";
+let myStr = "Learning to code is interesting.";
+myStr += someAdjective;
+
+//32
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+
+//33
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+firstLetterOfLastName = lastName[0]; 
+
+//34
+let myStr = "Jello World";
+myStr = "Hello World";
+
+//35
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
+
+//36
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length -1];
+
+//37
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length -2];
+
+//38
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+let wordBlanks = "Once there was a " + myNoun + " which was very " + myAdjective + ". ";
+wordBlanks += "It " + myVerb + " " + myAdverb + " around the yard."
+
+//39
+const myArray = ["string", 5];
+
+//40
+const myArray = [["tomatoes", 300], ["cucumbers", 500]];
+
+//41
