@@ -190,3 +190,33 @@ const myArray = ["string", 5];
 const myArray = [["tomatoes", 300], ["cucumbers", 500]];
 
 //41
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+
+//42
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+//43
+const myArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+  ];
+  
+  const myData = myArray[2][1];
+  
+  //44
+  const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3])
+
+//45
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop();
+
+//46
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift();
+
+//47
