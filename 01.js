@@ -220,3 +220,50 @@ const myArray = [["John", 23], ["dog", 3]];
 const removedFromMyArray = myArray.shift();
 
 //47
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+//48
+const myList = [];
+myList.push(["Chocolate Bar", 15], ["Tomatoes", 10], ["Bread", 1], ["Fish", 1], ["Oil", 1]);
+
+//49
+function reusableFunction() {
+  console.log("Hi World");
+  };
+  reusableFunction();
+  
+  //50
+  function functionWithArgs (param1, param2) {
+    console.log(param1 + param2);
+    };
+    functionWithArgs (5, 10);
+
+    //51
+    function timesFive(num) {
+      return num * 5;
+      } ;
+      const answer = timesFive(10);
+
+      //52
+      function fun1() {
+        
+      oopsGlobal = 5;
+      }
+      let myGlobal = 10; 
+      
+      function fun2() {
+        var output = "";
+        if (typeof myGlobal != "undefined") {
+          output += "myGlobal: " + myGlobal;
+        }
+        if (typeof oopsGlobal != "undefined") {
+          output += " oopsGlobal: " + oopsGlobal;
+        }
+        console.log(output);
+      }
+
+      //53
+
+
